@@ -1,6 +1,6 @@
 # Welcome to my Portfolio
 
-Hi, I'm Neal and thanks for taking the time to look at my [portfolio]().
+Hi, I'm Neal and thanks for taking the time to look at my [portfolio](https://nlw-portfolio.netlify.app/).
 
 # Who am I?
 
