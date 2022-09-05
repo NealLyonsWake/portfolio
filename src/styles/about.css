@@ -1,0 +1,21 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+
+.left-content, .right-content{
+    margin: 100px;
+}
+
+
+@media screen and (max-width: 660px) {
+    .about-container{
+        flex-direction: column;
+    }    
+    .left-content, .right-content{
+        margin: 5%;
+    }
+}
