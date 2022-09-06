@@ -43,7 +43,7 @@ function fetchProjects() {
             imgAlt: 'My Portfolio thumbnail',
             showSite: false,
             siteURL: null,
-            codeURL: ' https://github.com/NealLyonsWake/final-project_customer-dashboard',
+            codeURL: ' https://github.com/NealLyonsWake/portfolio',
             showDesign: false,
             designURL: null,
             tech: ['JavaScript', 'React', 'HTML', 'CSS']
