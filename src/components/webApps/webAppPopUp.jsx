@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import WebAppTech from './webAppTech';
 
 
@@ -20,7 +20,7 @@ function WebAppPopUp(props) {
     })
 
     function checkScreenSize(){
-        if (screenSize <= 620) return 'mobile-card-overview';
+        if (screenSize <= 620 || window.innerWidth <= 620) return 'mobile-card-overview';
         else return 'card-overview';
     }
 
