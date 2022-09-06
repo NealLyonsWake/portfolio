@@ -32,7 +32,7 @@ The content on my portfolio showcases the multiple projects and programming I ha
 
 # How was it Made?
 
-My portfolio was made in React. I decided to stored my project metadata into an appropriate array within a function module so that I can simply add another project object to the array as and when the next project is available to showcase on my portfolio. This keeps the portfolio easily updateable and keeps it DNRY friendly for elements, as React will handle rendering of the 'new' project component.
+My portfolio was made in React. I decided to store my project metadata into an appropriate array within a function module so that I can simply add another project object to the array as and when the next project is available to showcase on my portfolio. This keeps the portfolio easily updateable and keeps it DNRY friendly for elements, as React will handle rendering of the 'new' project component.
 
 # Install and Development
 
