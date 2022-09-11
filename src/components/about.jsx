@@ -11,7 +11,7 @@ function About(props) {
     return (
         <div className='about-container'>
             <div className='left-content'>
-                <h1>Hi, I'm <b className='highlight'>Neal Wake</b>.</h1>
+                <h1>Hi, I'm <b className='highlight'>Neal Lyons-Wake</b>.</h1>
                 <p className='intro'>I am a full stack software developer and games programmer.</p>
                 <p className='blurb'>I am passionate about technology and I enjoy creating useful and interesting applications,
                  as well as fun and entertaining games under my developer alias: Waken.</p>
