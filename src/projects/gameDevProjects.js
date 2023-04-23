@@ -1,6 +1,18 @@
 function fetchProjects() {
     const gameDevProjects = [
         {
+            title: 'Lost In Time',
+            overview: 'A 2D puzzle platformer with time travel, made for Lame Jam April 2023.',
+            fileName: 'lost_in_time.png',
+            imgAlt: 'Lost In Time thumbnail',
+            showSite: true,
+            siteURL: 'https://waken-games.itch.io/lost-in-time',
+            codeURL: 'https://github.com/NealLyonsWake/Lost-In-Time',
+            showDesign: true,
+            designURL: 'https://miro.com/app/board/uXjVMQb673Q=/?share_link_id=324651244425',
+            tech: ['C#', 'Unity', 'Inkscape',]
+        },
+        {
             title: 'Inferno Flume',
             overview: 'A virtual reality ride through hell for the Google Cardboard.',
             fileName: 'inferno_flume.png',

@@ -11,6 +11,11 @@ function GameCard(props) {
         else return;
     }
 
+    function showDesignLink() {
+        if (props.showDesign) return <a href={props.designURL} target='_blank'><button>Design</button></a>;
+        else return;
+    }
+
     const images = importAll(require.context('../../thumbnails/', false, /\.(png|jpe?g|svg)$/));
 
     return (
@@ -26,6 +31,7 @@ function GameCard(props) {
                 <div className='visit-buttons'>
                     <a href={props.siteURL} target='_blank'><button>Game</button></a>
                     {showCodeLink()}
+                    {showDesignLink()}
                 </div>
             </div>
         </div>

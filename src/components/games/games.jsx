@@ -13,7 +13,7 @@ function Games(props) {
 
     return (
         <div>
-            <p className='welcome'>Welcome to my <b className='highlight'>game development</b> projects. All project designs and programming undertaken by me.</p>
+            <p className='welcome'>Welcome to my <b className='highlight'>game development</b> projects. All project designs and programming were undertaken by myself.</p>
             <div className='games-container'>
                 {gameCards.map((project, index) => {
                     return (

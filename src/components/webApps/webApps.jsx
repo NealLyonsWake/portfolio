@@ -14,7 +14,7 @@ function WebApps(props) {
 
     return (
         <div>
-            <p className='welcome'>Welcome to my <b className='highlight'>web application</b> projects. All project designs and programming undertaken by me.</p>
+            <p className='welcome'>Welcome to my <b className='highlight'>web application</b> projects. All project designs and programming were undertaken by myself.</p>
             <div className='project-container'>
                 {webAppCards.map((project, index) => {
                     return (
