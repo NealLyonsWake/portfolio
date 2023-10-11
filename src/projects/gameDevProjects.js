@@ -1,6 +1,18 @@
 function fetchProjects() {
     const gameDevProjects = [
         {
+            title: 'Nothing Really Ends: Casting',
+            overview: 'A 3D puzzle game, using lots of UI elements and stat manipulation.',
+            fileName: 'nre_casting.png',
+            imgAlt: 'Nothing Really Ends thumbnail',
+            showSite: true,
+            siteURL: 'https://waken-games.itch.io/nothing-really-ends',
+            codeURL: null,
+            showDesign: false,
+            designURL: null,
+            tech: ['C++', 'Unreal Engine 5', 'Inkscape',]
+        },
+        {
             title: 'Lost In Time',
             overview: 'A 2D puzzle platformer with time travel, made for Lame Jam April 2023.',
             fileName: 'lost_in_time.png',
