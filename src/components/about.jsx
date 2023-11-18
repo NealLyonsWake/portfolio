@@ -20,7 +20,7 @@ function About(props) {
             <div className='right-content'>
                 <h3>Download <b className='highlight'>My CV</b></h3>
                 <p>My latest CV is available via the download button below.</p>
-                <a href='https://docs.google.com/document/d/1vJJ4zJEOLL13GYsrvGkFtmWTz2FkuT_k/edit?usp=sharing&ouid=111115118070490823727&rtpof=true&sd=true' target='_blank'><img src={Download} alt='Download icon' width='60px'/></a>
+                <a href='https://drive.google.com/file/d/1G4Ri_VRSS7Zfs4shxcnN_P_CsW3EIIMo/view?usp=sharing' target='_blank'><img src={Download} alt='Download icon' width='60px'/></a>
             </div>
         </div>
     )
